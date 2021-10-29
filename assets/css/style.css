@@ -38,7 +38,9 @@
     /*height: 100%;*/
     margin: 0;
   }
-  
+  *{
+      overflow: hidden;
+  }
   body {
     background-color: #f6f7fb;
     background-color: var(--first-color);
@@ -177,7 +179,9 @@ a{
     .input-group{
         justify-content: flex-start;
     }
-    
+    .panel{
+        padding: 35px !important;
+    }
 }
 
 /*Breadcrumb CSS*/
@@ -298,15 +302,3 @@ header { border-radius: 0px !important; border-top-left-radius: 0 !important; bo
 
 /*login*/
 
-.container{display: flex;align-items: center;justify-content: center;padding: 0px 15px 0px 15px;margin-top: 5%;}
-.form-control{height: 45px !important;}
-.login-container{display: flex;align-items: center;justify-content: center;padding: 0px 15px 0px 15px;margin-top: 10%;}
-.panel-default{background-color: #ffffff;border: 1px solid #ddd;}
-.panel-heading{background-color: #F0F0F0;padding: 0px 15px 0px 15px;border-bottom: 1px solid #ddd;}
-.panel-heading h3{padding: 5px 0px;}
-.btn-group{margin: 12px 0px;width: 100%;}
-.loginbt{color:#ffffff;background-color: #e67e22;padding:12px;text-align: center;font-weight: bold;cursor: pointer;}
-.right{text-align: right;}
-.forgotpass{text-decoration: none;color: #000000;}
-.forgotpass:hover{text-decoration: underline;}
-.panel-body{padding: 15px;}
