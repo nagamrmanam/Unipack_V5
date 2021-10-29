@@ -89,8 +89,7 @@ a{
     display: flex;
     background-color: #2e375f;
     color: #ffffff;
-    padding: 10px;
-    padding: 0px 15px 0px 15px;
+    align-items: center;
 }
 
 .marker{
@@ -286,6 +285,7 @@ hr {
 .dropdown .selected { font-size:16px !important; font-weight:bold !important; color:#e5e7ee !important; }
 .header { background-color:#2e375f; color:#FFFFFF; }
 .topnav { background-color:#305395 !important; }
+.navbar-right{justify-content: flex-end;}
 .topnav a { color:#fff !important; padding: 10px 15px;}
 header { border-radius: 0px !important; border-top-left-radius: 0 !important; border-top-right-radius: 0 !important; }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus { color: #000 !important; background-color:#c7d0e3  !important; }
@@ -294,3 +294,19 @@ header { border-radius: 0px !important; border-top-left-radius: 0 !important; bo
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{background-color: #c7d0e3  !important;color: #000000 !important;}
 .navbar { border-radius: 0px !important; border:none !important; }
 .clear { clear:both; }
+
+
+/*login*/
+
+.container{display: flex;align-items: center;justify-content: center;padding: 0px 15px 0px 15px;margin-top: 5%;}
+.form-control{height: 45px !important;}
+.login-container{display: flex;align-items: center;justify-content: center;padding: 0px 15px 0px 15px;margin-top: 10%;}
+.panel-default{background-color: #ffffff;border: 1px solid #ddd;}
+.panel-heading{background-color: #F0F0F0;padding: 0px 15px 0px 15px;border-bottom: 1px solid #ddd;}
+.panel-heading h3{padding: 5px 0px;}
+.btn-group{margin: 12px 0px;width: 100%;}
+.loginbt{color:#ffffff;background-color: #e67e22;padding:12px;text-align: center;font-weight: bold;cursor: pointer;}
+.right{text-align: right;}
+.forgotpass{text-decoration: none;color: #000000;}
+.forgotpass:hover{text-decoration: underline;}
+.panel-body{padding: 15px;}
