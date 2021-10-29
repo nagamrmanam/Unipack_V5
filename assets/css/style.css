@@ -65,6 +65,9 @@ a{
     border: 15px solid #f0f0f0 !important;
     padding: 0px 15px !important;
 }
+.brd h3{
+    color: #627aad;
+}
 .navbar{
     padding: 0px !important;
 }
@@ -238,6 +241,10 @@ a{
   }
   .breadcrumb li:last-child a, .breadcrumb li:last-child span {
     cursor: default !important;
+  }
+  .btn-primary{
+      background-color:#e67e22 !important;
+      border: 0px !important;
   }
 
 .heading{
