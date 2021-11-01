@@ -33,6 +33,6 @@ body{
 
 @media screen and (min-width: 320px) and (max-width: 480px){
     .main_img{display: none;}
-    .main-div{padding: 3rem !important;}
+    .main-div{padding: 2rem !important;}
     .row{height:auto}
 }
