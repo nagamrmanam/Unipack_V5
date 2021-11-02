@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.:: Uniserve ::.</title>
+    <!-- base css -->
+    <link rel="stylesheet" type="text/css"  href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="../assets/css/all.css">
+    <!--<link rel="stylesheet" type="text/css" href="../assets/css/kendo.default.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/kendo.default.mobile.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/kendo.default-main.min.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="../assets/css/kendo.common-material.min.css">-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/kendo.material-main.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/kendo.material.mobile.min.css">
+    <link rel="stylesheet" type="text/css"  href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/create_destination.css">
+</head>
+<body>
+
+  <header class="">
+    <div class="container-fluid" >
+      <div class="row">
+        
+      <div class="col-md-2">
+        <a href="#" class="d-flex align-items-center text-decoration-none">
+          <i class="logo"></i>
+        </a>
+        
+      </div>
+      <div class="col-md-7">
+        
+          <div class="dropdown py-2"> <a href="#" class="dropdown-toggle selected" data-toggle="dropdown" aria-expanded="false">User manager <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="../module_registration.html">Administration</a></li>
+              <li><a href="designations.html">User manager</a></li>
+              <li><a href="../dashboard.html">DMS</a></li>
+              <li><a href="../workflow/home.html">Workflow</a></li>
+              <li><a href="#">Corpcare</a></li>
+              <li><a href="../reports_manager/database.html">Reports manager</a></li>
+              <li><a href="../reports/reports_dashboard.html">Reports</a></li>
+              <li><a href="#">Analytics</a></li>
+              <li><a href="../eforms/eforms.html">E-forms</a></li>
+              <li><a href="../onboard/ob_home.html">Onboard</a></li>
+              <li><a href="../alerts_manager/listeners.html">Alerts manager</a></li>
+              <li><a href="../cloud/my_subscribed_services.html">Cloud services</a></li>
+              <li><a href="../manage_accounts/account_requests.html">Manage accounts</a></li>
+              <li><a href="../assure/audit_sample_templates.html">Assure</a></li>
+              <li><a href="../wsm/messages.html">WSM</a></li>
+            </ul>
+          </div>
+       
+      </div>
+      <div class="col-md-3 text-end">
+        
+        <div class="flex-shrink-0 dropdown userDD">
+          <a href="#" class=" dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+            <!--<img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">-->
+            <i class="fas fa-user"></i>
+          </a>
+          <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+            <li><a class="dropdown-item" href="#">Help</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+    
+  </div>
+
+    </div>
+  </header>
+  <div class="container-fluid topnav">
+    
+  <nav >
+    
+      <ul class="nav  me-auto secondnav">
+        <li class="nav-item"><a href="../user_manager/designations.html" class="nav-link link-dark px-2" aria-current="page">Designations</a></li>
+        <li class="nav-item"><a href="../user_manager/departments.html" class="nav-link link-dark px-2">Departments</a></li>
+        <li class="nav-item"><a href="../user_manager/roles.html" class="nav-link link-dark px-2">Roles</a></li>
+        <li class="nav-item"><a href="../user_manager/users.html" class="nav-link link-dark px-2 active">Users</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Groups</a></li>
+       
+      </ul>
+     
+  </nav>
+
+</div>
+     
+    <div class="container-fluid contentBody ">
+    
+        <div class="row">
+          <div class="col-md-12">
+            <nav  aria-label="breadcrumb">
+            <ol  class="breadcrumb pl-0">
+             <li class="pe-2 "><a  href="javascript:void(0);" class="disabled">You are here: </a></li>
+            <li  class="breadcrumb-item"><a  href="javascript:void(0);">Home</a></li>
+            <li  class="breadcrumb-item"><a  href="javascript:void(0);">User manager</a></li>
+            <li  class="breadcrumb-item"><a  href="javascript:void(0);">Departments</a></li>
+            <li  class="breadcrumb-item active"><span >Create New user</span></li>
+            </ol>
+            </nav>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-md-12">
+              <h3 class="heading">Create new user</h3>
+              <hr>
+          </div>
+          </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>Login details</h4>
+                </div>
+                <div class="col-sm-6">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">User name :</label>
+                          <span class="star">*</span>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="exampleInputPassword1" class="form-label">User type</label>
+                    <span class="star">*</span>
+                    <div>
+                      <select name="department" id="" class="select-form">
+                          <option value="">Select user type</option>
+                          <option value="">user 2</option>
+                          <option value="">user 3</option>
+                          <option value="">user 4</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Employee ID</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password policy</label>
+                    <span class="star">*</span>
+                    <div>
+                      <select name="department" id="" class="select-form">
+                          <option value="">No profile</option>
+                          <option value="">user 2</option>
+                          <option value="">user 3</option>
+                          <option value="">user 4</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Password</label>
+                          <span class="star">*</span>
+                          <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-6">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Confirm password</label>
+                          <span class="star">*</span>
+                          <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </form>
+                </div>
+                <div class="my-2"></div>
+                <hr class="m-2">
+                <div class="col-sm-12">
+                    <h4>Personal details</h4>
+                </div>
+                <div class="col-sm-6">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">First name :</label>
+                          <span class="star">*</span>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-6">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Middle name :</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-6">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Last name :</label>
+                          <span class="star">*</span>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-6 d-flex align-items-center">
+                    <form action="" class="d-flex">
+                        <label for="" class="pe-4">Sex :</label>
+                        <div class="d-flex">
+                            <div class="d-flex align-items-center">
+                                <input type="radio" id="male" name="female" value="male">
+                                <label for="female" class="pe-4">Male</label><br>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <input type="radio" id="female" name="female" value="female">
+                        <label for="female" class="pe-4">Female</label><br>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                    <div class="col-sm-2">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Intprefix:</label>
+                              <span class="star">*</span>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-2">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Country code</label>
+                              <span class="star">*</span>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-2">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Mobile number</label>
+                              <span class="star">*</span>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-6">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Office Email ID</label>
+                              <span class="star">*</span>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="my-2"></div>
+                    <hr class="m-2">
+                    <div class="col-sm-12">
+                        <h4>Other deatils</h4>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Department</label>
+                        <span class="star">*</span>
+                        <div>
+                          <select name="department" id="" class="select-form">
+                              <option value="">Select department</option>
+                              <option value="">Department 2</option>
+                              <option value="">Department 3</option>
+                              <option value="">Department 4</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Designation</label>
+                        <span class="star">*</span>
+                        <div>
+                          <select name="department" id="" class="select-form">
+                              <option value="">Select Designation</option>
+                              <option value=""> 2</option>
+                              <option value=""> 3</option>
+                              <option value=""> 4</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Department head</label>
+                        <span class="star">*</span>
+                        <div class="input-group">
+                          <input type="text" class="form-control inpform">
+                          <span class="input-group-text"><i class="fas fa-search"></i></span>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                      <div class="col-md-6 mb-3">
+                        <label for="">User status</label>
+                        <div class="col-md-3">
+                            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                                <label class="btn btn-outline-primary" for="btnradio1">Active</label>  
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btnradio2">Inactive</label>
+                              </div>
+                        </div>
+                    </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="">Locked status</label>
+                              <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                                <label class="btn btn-outline-primary" for="btnradio1">Locked</label>  
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                                <label class="btn btn-outline-primary" for="btnradio2">Unlocked</label>
+                              </div>
+                        </div>
+            </div>
+            <div class="row">
+                <div>
+                  <a href="../user_manager/users.html" class="btn btn-primary">Save</a>
+                  <a href="../user_manager/users.html" class="btn btn-light">Cancel</a>
+              </div>  
+              </div>
+
+    </div>
+    <footer class="sticky-footer"> Copyright © 2021. Intense Technologies Limited. </footer>
+    
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap.bundle.js"></script>
+    <script src="../assets/js/kendo.all.min.js"></script>
+    <script src="../assets/js/kendo/usermanager/departments.js"></script>
+</body>
+</html>

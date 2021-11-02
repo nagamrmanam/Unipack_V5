@@ -39,7 +39,8 @@
     margin: 0;
   }
   *{
-      overflow: hidden;
+      overflow-x: hidden;
+      overflow-y: auto ;
   }
   body {
     background-color: #f6f7fb;
