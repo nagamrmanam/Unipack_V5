@@ -78,8 +78,8 @@
   <nav >
     
       <ul class="nav  me-auto secondnav">
-        <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active" aria-current="page">Designations</a></li>
-        <li class="nav-item"><a href="../user_manager/departments.html" class="nav-link link-dark px-2">Departments</a></li>
+        <li class="nav-item"><a href="../user_manager/designations.html" class="nav-link link-dark px-2" aria-current="page">Designations</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active">Departments</a></li>
         <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Roles</a></li>
         <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Users</a></li>
         <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Groups</a></li>
@@ -99,26 +99,26 @@
              <li class="pe-2 "><a  href="javascript:void(0);" class="disabled">You are here: </a></li>
             <li  class="breadcrumb-item"><a  href="javascript:void(0);">Home</a></li>
             <li  class="breadcrumb-item"><a  href="javascript:void(0);">User manager</a></li>
-            <li  class="breadcrumb-item"><a  href="javascript:void(0);">Designations</a></li>
-            <li  class="breadcrumb-item active"><span >Create New designations</span></li>
+            <li  class="breadcrumb-item"><a  href="javascript:void(0);">Departments</a></li>
+            <li  class="breadcrumb-item active"><span >Create New department</span></li>
             </ol>
             </nav>
             </div>
             </div>
             <div class="row">
             <div class="col-md-12">
-              <h3 class="heading">Create new designations</h3>
+              <h3 class="heading">Create new department</h3>
               <hr>
           </div>
           </div>
             <div class="row">
-            <div class="col-lg-12"><h4>Destination details</h4></div>
+            <div class="col-lg-12"><h4>Department details</h4></div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <form>
                         <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Designation name :</label>
+                          <label for="exampleInputEmail1" class="form-label">Name :</label>
                           <span class="star">*</span>
                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         </div>
@@ -132,24 +132,48 @@
                         </div>
                       </form>
                 </div>
-
             </div>
             <div class="row">
-              <div class="col-sm-6 mb-3">
-                <label for="exampleInputPassword1" class="form-label">Reporting designation</label>
-                <span class="star">*</span>
-                <div class="input-group">
-                  <input type="text" class="form-control inpform">
-                  <span class="input-group-text"><i class="fas fa-search"></i></span>
+                <div class="col-md-6 mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Select parent department</label>
+                    <span class="star">*</span>
+                    <div>
+                      <select name="department" id="" class="select-form">
+                          <option value="">test_dep</option>
+                          <option value="">Department 2</option>
+                          <option value="">Department 3</option>
+                          <option value="">Department 4</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Department head</label>
+                    <span class="star">*</span>
+                    <div class="input-group" style="width: 75%;">
+                      <input type="text" class="form-control inpform">
+                      <span class="input-group-text"><i class="fas fa-search"></i></span>
+                    </div>
+                  </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 mb-3">
+                    Department status
                 </div>
-              </div>
+                <div class="col-sm-12 mb-3">
+                      <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary" for="btnradio1">Active</label>  
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btnradio2">Inactive</label>
+                      </div>
+                </div>
             </div>
             <div class="row">
-              <div>
-                <a href="../user_manager/designations.html" class="btn btn-primary">Save</a>
-                <a href="../user_manager/designations.html" class="btn btn-light">Cancel</a>
-            </div>  
-            </div>
+                <div>
+                  <a href="../user_manager/departments.html" class="btn btn-primary">Save</a>
+                  <a href="../user_manager/departments.html" class="btn btn-light">Cancel</a>
+              </div>  
+              </div>
 
     </div>
     <footer class="sticky-footer"> Copyright © 2021. Intense Technologies Limited. </footer>
@@ -157,6 +181,6 @@
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/bootstrap.bundle.js"></script>
     <script src="../assets/js/kendo.all.min.js"></script>
-    <script src="../assets/js/kendo/usermanager/designations.js"></script>
+    <script src="../assets/js/kendo/usermanager/departments.js"></script>
 </body>
 </html>
