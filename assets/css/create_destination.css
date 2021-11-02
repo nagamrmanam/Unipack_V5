@@ -1,0 +1,13 @@
+.inpform{
+   background-color: #e9ecef;
+}
+
+.inpform2{
+    height: 60px;
+    width: 75%;
+}
+.star{
+    color: red;
+    position: relative;
+    bottom: 12px;
+}

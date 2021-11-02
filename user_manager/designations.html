@@ -15,9 +15,6 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/kendo.material-main.min.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/kendo.material.mobile.min.css">
     <link rel="stylesheet" type="text/css"  href="../assets/css/style.css">
-    
-  
-   
 </head>
 <body>
 
@@ -33,7 +30,7 @@
       </div>
       <div class="col-md-7">
         
-          <div class="dropdown py-2"> <a href="#" class="dropdown-toggle selected" data-toggle="dropdown">User manager <b class="caret"></b></a>
+          <div class="dropdown py-2"> <a href="#" class="dropdown-toggle selected" data-toggle="dropdown" aria-expanded="false">User manager <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="../module_registration.html">Administration</a></li>
               <li><a href="designations.html">User manager</a></li>
@@ -79,27 +76,28 @@
     
   <nav >
     
-      <ul class="nav me-auto secondnav">
+      <ul class="nav  me-auto secondnav">
         <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active" aria-current="page">Designations</a></li>
         <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Departments</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Roles</a></li>
         <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Users</a></li>
         <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Groups</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Roles</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Signatures</a></li>
+       
       </ul>
      
   </nav>
 
 </div>
      
-    <div class="container-fluid contentBody">
+    <div class="container-fluid contentBody ">
     
         <div class="row">
           <div class="col-md-12">
             <nav  aria-label="breadcrumb">
             <ol  class="breadcrumb pl-0">
-            <li  class="breadcrumb-item"><a  href="javascript:void(0);">Home</a></li>
-            <li  class="breadcrumb-item"><a  href="javascript:void(0);">User manager</a></li>
+             <li class="pe-2 "><a  href="javascript:void(0);">You are here: </a></li>
+            <li  class="breadcrumb-item disabled"><a  href="javascript:void(0);">Home</a></li>
+            <li  class="breadcrumb-item disabled"><a  href="javascript:void(0);">User manager</a></li>
             <li  class="breadcrumb-item active"><span >Designations</span></li>
             </ol>
             </nav>
@@ -113,7 +111,7 @@
           </div>
             <div class="row">
                 <div class="col-lg-9">
-                    <a href="#" class="primarybt">New Designation</a>
+                    <a href="../user_manager/create_designation.html" class="btn btn-primary">create new Designation</a>
                 </div>
                 <div class="col-lg-3">
 
@@ -135,7 +133,7 @@
     <footer class="sticky-footer"> Copyright © 2021. Intense Technologies Limited. </footer>
     
     <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.js"></script>
     <script src="../assets/js/kendo.all.min.js"></script>
     <script src="../assets/js/kendo/usermanager/designations.js"></script>
 </body>
