@@ -36,30 +36,36 @@
         </div>
       </nav>
 
-      <div class="login-container">
+      <div class="container">
         <div class="col-md-4">
-          <div>
-            <div>
-                <h3><strong>Forgot password</strong></h3>
-              <p class=""><strong>Please enter the details</strong></p>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class=""><strong>First Time Login</strong></h3>
             </div>
-            <div >
+            <div class="panel-body">
               <form action="">
                 <div class="form-group">
-                  <label for="exampleInputEmail1" class="form-label">Login ID</label>
-                  <input name="User name" type="text" autocomplete="on" class="form-control" value="">
+                  <label for="exampleInputEmail1" class="form-label">Username</label>
+                  <input name="User name" type="text" autocomplete="on" class="form-control" value="john christian" readonly >
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputEmail1" class="form-label">Hint Question</label>
-                  <input name="hint Question" type="text" autocomplete="on" class="form-control" value="">
+                  <label for="exampleInputEmail1" class="form-label">Present Password</label>
+                  <input name="Password" type="password" autocomplete="on" class="form-control" value="">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputEmail1" class="form-label">Hint Answer</label>
-                    <input name="hint answer" type="text" autocomplete="on" class="form-control" value="">
+                    <label for="exampleInputEmail1" class="form-label">New Password</label>
+                    <input name="Password" type="password" autocomplete="on" class="form-control" value="">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" class="form-label">Confirm Password</label>
+                    <input name="Password" type="password" autocomplete="on" class="form-control" value="">
                   </div>
                 <div class="btn-group">
-                  <input name="User name" type="text" autocomplete="on" class="form-control loginbt" value="Login">
+                  <input name="User name" type="text" autocomplete="on" class="form-control loginbt" value="Submit">
                 </div>
+                <div class="btn-group">
+                    <input name="User name" type="text" autocomplete="on" class="form-control cancelbt" value="Cancel">
+                  </div>
               </form>
             </div>
           </div>

@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(#2193b0, #6dd5ed) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.container{display: flex;align-items: center;justify-content: center;padding: 0px 15px 0px 15px;margin-top: 5%;}
+.form-control{height: 60px;}
+.row{background-color: #ffffff;border-radius: 50px;height: 600px;}
+
+/* main image*/
+.main_img{background:url(../images/login.jpg) no-repeat ; height:338px; width:338px; margin-left:15px; display:inline-block; z-index: 99;}
+.form-group{margin: 10px 0px 0px 0px;}
+.main-div{padding: 3rem 20rem !important;}
+.form-label{margin: 0.5rem 0rem 0.5rem 0rem;}
+.login-container{display: flex;align-items: center;justify-content: center;padding: 0px 15px 0px 15px;margin-top: 10%;}
+.btn-group{margin: 12px 0px 0px 0px;width: 100%;}
+.loginbt{color:#ffffff;background-color: #e67e22;padding:12px;text-align: center;font-weight: bold;cursor: pointer;border: 0px !important;font-size: 22px;}
+.cancelbt{color:#000000;padding:12px;text-align: center;font-weight: bold;cursor: pointer;}
+.right{text-align: right;margin: 20px 0px 0px 0px;}
+.forgotpass{text-decoration: none;color: #000000;}
+.forgotpass:hover{text-decoration: underline;}
+.panel{padding:0px 25px ;background-color: #001f62;border-radius: 50px 0px 0px 50px;display: flex;justify-content: center;flex-direction: column;}
+.panel-header h3{color: #2e375f;}
+.sticky-footer{text-align: center !important;bottom: 0;width: 100%;z-index: 99;background-color: #ffffff;position: fixed;padding: 6px 10px;color:#7A7676;}
+.check_box{width: 15px;height: 15px;margin: 0px 5px 0px 0px;}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .main_img{display: none;}
+    .main-div{padding: 3rem !important;}
+    .row{height:auto}
+}
